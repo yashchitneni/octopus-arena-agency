@@ -1,4 +1,3 @@
-
 import { ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -69,8 +68,6 @@ const HeroSection = () => {
             We're building with AI — and with each other.
           </p>
           <div className="flex items-center justify-center space-x-4 text-electric-blue font-orbitron font-semibold">
-            <span className="text-sm sm:text-base">COHORT 4</span>
-            <div className="w-1 h-1 bg-electric-blue rounded-full animate-pulse" />
             <span className="text-sm sm:text-base">THE INNOVATORS</span>
           </div>
         </div>
