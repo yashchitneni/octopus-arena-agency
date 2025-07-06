@@ -17,11 +17,12 @@ const SymbolSection = () => {
             
             {/* Logo Container */}
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 animate-logo-float">
-              <div className="w-full h-full bg-gradient-to-br from-arena-purple to-deep-violet rounded-2xl flex items-center justify-center shadow-2xl border-2 border-purple-400/50">
-                {/* Octopus Shield - Enhanced */}
-                <div className="text-white text-8xl sm:text-9xl lg:text-[10rem]">🐙</div>
-                <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-purple-600/30 to-transparent" />
-              </div>
+              <img 
+                src="/lovable-uploads/a58f20d0-fc74-4368-a2da-2040d63e3065.png" 
+                alt="The Innovators - Octopus Shield Symbol" 
+                className="w-full h-full object-contain drop-shadow-2xl"
+              />
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-purple-600/10 to-transparent" />
             </div>
           </div>
         </div>

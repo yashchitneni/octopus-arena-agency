@@ -41,13 +41,14 @@ const HeroSection = () => {
             {/* Glow Effect */}
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-deep-violet to-electric-blue opacity-20 blur-xl scale-150 animate-glow-pulse" />
             
-            {/* Logo Placeholder - Replace with your actual logo */}
+            {/* Actual Logo */}
             <div className="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 animate-logo-float">
-              <div className="w-full h-full bg-gradient-to-br from-arena-purple to-deep-violet rounded-xl flex items-center justify-center shadow-2xl border border-purple-500/30">
-                {/* Octopus Shield Placeholder */}
-                <div className="text-white text-5xl sm:text-6xl lg:text-7xl">🐙</div>
-                <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-purple-600/20 to-transparent" />
-              </div>
+              <img 
+                src="/lovable-uploads/a58f20d0-fc74-4368-a2da-2040d63e3065.png" 
+                alt="The Innovators - Octopus Shield Logo" 
+                className="w-full h-full object-contain drop-shadow-2xl"
+              />
+              <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-purple-600/10 to-transparent" />
             </div>
           </div>
         </div>
