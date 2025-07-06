@@ -1,12 +1,20 @@
 
 import HeroSection from '@/components/HeroSection';
-import NextSection from '@/components/NextSection';
+import WhyWeShowedUp from '@/components/WhyWeShowedUp';
+import PhilosophySection from '@/components/PhilosophySection';
+import SymbolSection from '@/components/SymbolSection';
+import ToolsSection from '@/components/ToolsSection';
+import WhatsNextSection from '@/components/WhatsNextSection';
 
 const Index = () => {
   return (
     <div className="w-full">
       <HeroSection />
-      <NextSection />
+      <WhyWeShowedUp />
+      <PhilosophySection />
+      <SymbolSection />
+      <ToolsSection />
+      <WhatsNextSection />
     </div>
   );
 };

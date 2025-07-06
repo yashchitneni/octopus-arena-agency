@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
   const scrollToNext = () => {
-    const nextSection = document.getElementById('next-section');
+    const nextSection = document.getElementById('why-we-showed-up');
     if (nextSection) {
       nextSection.scrollIntoView({ behavior: 'smooth' });
     }
@@ -64,7 +64,8 @@ const HeroSection = () => {
         {/* Subheading */}
         <div className="space-y-4 mb-8 sm:mb-12 animate-fade-in-up" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 font-inter font-light leading-relaxed max-w-3xl mx-auto">
-            We're not waiting for permission. We're building with AI — and each other.
+            We're not waiting for permission.<br />
+            We're building with AI — and with each other.
           </p>
           <div className="flex items-center justify-center space-x-4 text-electric-blue font-orbitron font-semibold">
             <span className="text-sm sm:text-base">COHORT 4</span>
