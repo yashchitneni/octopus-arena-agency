@@ -1,4 +1,3 @@
-
 import { ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -76,11 +75,10 @@ const HeroSection = () => {
           <span className="text-white">of Agency</span>
         </h1>
 
-        {/* Subheading */}
+        {/* Tagline */}
         <div className="space-y-4 mb-8 sm:mb-12 animate-fade-in-up" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-300 font-inter font-light leading-relaxed max-w-3xl mx-auto">
-            We're not waiting for permission.<br />
-            We're building with AI — and with each other.
+            Agency for All (Who Want It)
           </p>
           <div className="flex items-center justify-center space-x-4 text-electric-blue font-orbitron font-semibold">
             <span className="text-sm sm:text-base">THE INNOVATORS</span>
