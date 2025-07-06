@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
 const WhatsNextSection = () => {
@@ -62,8 +61,8 @@ const WhatsNextSection = () => {
       {/* Bottom Image */}
       <div className="mt-12 w-full max-w-4xl">
         <img
-          src="/lovable-uploads/b8ec44ec-3f82-4e6e-8318-434f9767d9d4.png"
-          alt="The Innovators - Purple Octopus Shield"
+          src="/lovable-uploads/9def0c96-ac5d-46fc-bb33-47db4392f478.png"
+          alt="The Innovators - Purple Octopus Marker"
           className="w-full h-auto object-contain"
         />
       </div>
