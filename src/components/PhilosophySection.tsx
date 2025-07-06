@@ -1,7 +1,5 @@
-
 const PhilosophySection = () => {
-  return (
-    <section className="min-h-screen bg-black py-20 px-4 sm:px-6 lg:px-8 flex items-center">
+  return <section className="min-h-screen bg-black py-20 px-4 sm:px-6 lg:px-8 flex items-center">
       <div className="max-w-6xl mx-auto">
         {/* Tagline */}
         <div className="text-center mb-16">
@@ -43,23 +41,10 @@ const PhilosophySection = () => {
 
         {/* Interactive Callsign */}
         <div className="text-center">
-          <h3 className="text-2xl sm:text-3xl font-orbitron font-bold text-white mb-8">
-            Our Callsign
-          </h3>
-          <div className="bg-gray-900 rounded-lg p-8 max-w-2xl mx-auto border border-purple-500/30">
-            <div className="space-y-4">
-              <div className="text-electric-blue font-orbitron text-xl">
-                Call: <span className="text-white">"What's the distance?"</span>
-              </div>
-              <div className="text-deep-violet font-orbitron text-xl">
-                Response: <span className="text-white font-bold">"Zero."</span>
-              </div>
-            </div>
-          </div>
+          
+          
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PhilosophySection;
