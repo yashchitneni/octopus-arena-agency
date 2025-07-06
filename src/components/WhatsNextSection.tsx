@@ -37,9 +37,6 @@ const WhatsNextSection = () => {
             <p className="text-xl sm:text-2xl text-gray-300 font-inter leading-relaxed max-w-3xl mx-auto">
               The distance from idea to implementation?
             </p>
-            <p className="text-2xl sm:text-3xl font-orbitron font-bold text-electric-blue">
-              Zero.
-            </p>
           </div>
 
           {/* Interactive Call and Response */}
