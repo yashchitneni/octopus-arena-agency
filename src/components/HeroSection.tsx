@@ -1,3 +1,4 @@
+
 import { ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
@@ -49,6 +50,20 @@ const HeroSection = () => {
               />
               <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-purple-600/10 to-transparent" />
             </div>
+          </div>
+        </div>
+
+        {/* YouTube Video */}
+        <div className="mb-8 sm:mb-12 flex justify-center">
+          <div className="relative w-full max-w-2xl aspect-video rounded-lg overflow-hidden shadow-2xl">
+            <iframe 
+              src="https://www.youtube.com/embed/k-1oPVhCWaI"
+              title="The Innovators Video"
+              className="w-full h-full"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
         </div>
 
